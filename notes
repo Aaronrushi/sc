@@ -1,0 +1,26 @@
+ps：
+视图-清除参考线
+alt+滚轮：缩放。
+按住空格可以使用鼠标拖动。
+
+代码管理：
+1、申请Github账号：Aaronrushi。
+2、sign up并注册。
+3、邮箱验证。
+4、登录并点击New Repository
+5、下载并安装Git。
+6、使用微软小娜搜索git bash.
+7、将项目文件夹拖入git bash中并回车.
+8、分别复制以下代码，并替换掉Your Name和邮箱地址。
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+git config --global push.default matching
+9、执行命令：$ ssh-keygen -t rsa
+
+
+sublime安装Git插件。
+提交代码：ctrl+shift+p
+输入git:add选择add all.
+输入git:commit
+输入git:push
+点击setting->添加master为静态页面并保存。

@@ -1,0 +1,52 @@
+<!-- 设置内容超出后不换行 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		html,body{
+			margin:0;
+			padding:0;
+		}
+		.box1{
+			/*box2*/
+			width: 900px;
+			height: 211px;
+			overflow-x:auto;
+			/*ovyh*/
+			overflow-y: hidden;
+		}
+		.img{
+			width: 210px;
+			height: 211px;
+			float: left;
+			border:none;
+
+
+		}
+		.box2{
+			/*
+			box2至少能容下其下所有内容之和
+			其父元素设置overflow-x:auto;
+			overflow-y: hidden;
+			*/
+			width: 1260px;
+			overflow: hidden;
+		}
+	</style>
+	<div class="box1">
+		<div class="box2">
+			<img src="img/p-1.png" alt=""
+			><img src="img/p-1.png" alt=""
+			><img src="img/p-1.png" alt=""
+			><img src="img/p-1.png" alt=""
+			><img src="img/p-1.png" alt=""
+			><img src="img/p-1.png" alt="">
+		</div>
+		
+	</div>
+</body>
+</html>
